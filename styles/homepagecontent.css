@@ -1,0 +1,16 @@
+.banner {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1664525402058-1369764c2dea?q=80&w=1641&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: 0, 50%;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+}
+
+.banner-content p {
+    font-size: 20px;
+}
