@@ -13,6 +13,8 @@
     padding: 15px;
     background-color: #5b8755;
     user-select: none;
+    position: sticky;
+    top: 0;
 }
 
 .logo {

@@ -37,11 +37,166 @@
     line-height: 2;
 }
 
-.boxes-container, .box1, .box2, .box3 {
-    border: 1px solid red;
-}
-
 .boxes-container {
     display: flex;
     justify-content: center;
+}
+
+.box1, .box2, .box3 {
+    text-align: center;
+    margin: 10px;
+    background-color: #356624;
+    color: white;
+}
+
+.box1 h2, .box2 h2, .box3 h2 {
+    margin: 10px;
+}
+
+.box1 a button, .box2 a button, .box3 a button {
+    margin: 10px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #b2d1b3;
+    border: none;
+    border-radius: 5px;
+}
+
+.skiing-activities {
+    display: block;
+    list-style: square;
+}
+
+.skiing-activities li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.skiing-activities li:hover {
+    background-color: #356624;
+    cursor: default;
+}
+
+.surfing-activities {
+    display: block;
+    list-style: square;
+}
+
+.surfing-activities li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.surfing-activities li:hover {
+    background-color: #356624;
+    cursor: default;
+}
+
+.rock-climbing-activities {
+    display: block;
+    list-style: square;
+}
+
+.rock-climbing-activities li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.rock-climbing-activities li:hover {
+    background-color: #356624;
+    cursor: default;
+}
+
+.destinations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinations-content {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinations-content h1 {
+    font-size: 40px;
+    line-height: 2;
+}
+
+.destinations-boxes-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box4, .box5, .box6 {
+    text-align: center;
+    margin: 10px;
+    background-color: #356624;
+    color: white;
+}
+
+.box4 h2, .box5 h2, .box6 h2 {
+    margin: 10px;
+}
+
+.box4 a button, .box5 a button, .box6 a button {
+    margin: 10px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #b2d1b3;
+    border: none;
+    border-radius: 5px;
+}
+
+.museums {
+    display: block;
+    list-style: square;
+}
+
+.museums li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.museums li:hover {
+    background-color: #356624;
+    cursor: default;
+}
+
+.parks {
+    display: block;
+    list-style: square;
+}
+
+.parks li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.parks li:hover {
+    background-color: #356624;
+    cursor: default;
+}
+
+.tourist-attractions {
+    display: block;
+    list-style: square;
+}
+
+.tourist-attractions li {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.tourist-attractions li:hover {
+    background-color: #356624;
+    cursor: default;
 }
