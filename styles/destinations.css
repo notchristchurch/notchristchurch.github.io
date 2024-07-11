@@ -1,0 +1,44 @@
+.destinations-banner {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://interactives.stuff.co.nz/travel/christchurch-go-to-guide/assets/RQVD4cxmr8/fallback-1920x1080.jpeg);
+    background-position: 0, 20%;
+    object-fit: fill;
+}
+
+.destinations-banner-content h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.content {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.content-first-text {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 {
+    margin-top: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #5b8755;
+}
+
+.footer-content {
+    width: 30%;
+    text-align: center;
+    color: white;
+    user-select: none;
+}

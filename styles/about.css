@@ -49,3 +49,7 @@ footer {
 .about-info p {
     line-height: 1.5;
 }
+
+.about-info p a:visited {
+    all: unset;
+}
