@@ -1,0 +1,51 @@
+.totally-legit-list ul {
+    display: block;
+    list-style: none;
+}
+
+.totally-legit-list ul li {
+    margin: 5px;
+    padding: 5px;
+}
+
+.about-info ul li:hover {
+    background-color: #d3edd4;
+    cursor: default;
+}
+
+.about-info {
+    text-align: center;
+    background-color: #d3edd4;
+    padding: 20px;
+}
+
+.about-info-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #beedbf;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #5b8755;
+}
+
+.footer-content {
+    width: 30%;
+    text-align: center;
+    color: white;
+    user-select: none;
+}
+
+.bit-more-information {
+    margin-top: 10px;
+}
+
+.about-info p {
+    line-height: 1.5;
+}
