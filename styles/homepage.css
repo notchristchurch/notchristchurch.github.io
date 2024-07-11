@@ -216,4 +216,5 @@ footer {
     width: 30%;
     text-align: center;
     color: white;
+    user-select: none;
 }
